@@ -1,0 +1,51 @@
+.banner{
+   background-image:url(../images/banner1.jpeg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   
+}
+
+.slider{
+   background-color: rgba(1,1,1,.5);
+   color:white;
+   padding: 70px;
+}
+
+.slider h1{
+   margin-top:30px;
+   font-size:30px;
+   margin-bottom:30px;
+}
+.slider p{
+   font-size:20px;
+   margin-bottom:30px;
+}
+.slider button{
+   margin-bottom:50px;
+}
+
+.carousel-indicators {
+   
+   margin-bottom: 3rem;
+ 
+}
+
+.custom_ind{
+   bottom:20px;
+}
+
+.custom_ind li{
+   width:10px;
+   height:10px;
+   border-radius: 50%;
+   background-color: rgba(1,1,1, 0.5);
+}
+.carousel-indicators .active {
+   opacity: 1;
+}
+.carousel-indicators [data-bs-target] {
+   width: 10px;
+   height: 10px;
+   border-radius: 50%;
+  }
